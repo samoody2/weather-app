@@ -13,12 +13,11 @@ button.addEventListener('click',function(){
         var descValue = data['weather'][0]['description'];
 
         ame.innerHTML = nameValue;
-        temp.innerHTML = tempValue);
+        temp.innerHTML = tempValue;
         desc.innerHTML = descValue;
 
     })
     
-    nameValue
 
 .catch(err => alert("Wrong Zipcode."))
 
