@@ -17,7 +17,6 @@ button.addEventListener('click',function(){
         desc.innerHTML = descValue;
 
     })
-    
 
 .catch(err => alert("Wrong Zipcode."))
 
